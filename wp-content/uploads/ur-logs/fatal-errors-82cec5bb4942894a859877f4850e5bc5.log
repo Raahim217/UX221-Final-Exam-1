@@ -1,0 +1,16 @@
+2026-04-14T23:42:49+00:00 CRITICAL Out of memory (allocated 46137344 bytes) (tried to allocate 155648 bytes) in /workspaces/UX221-Final-Exam/.wordpress/wp-admin/async-upload.php on line 25
+
+2026-04-14T23:42:49+00:00 CRITICAL Out of memory (allocated 46137344 bytes) (tried to allocate 155648 bytes) in /workspaces/UX221-Final-Exam/.wordpress/wp-admin/async-upload.php on line 25
+
+2026-04-14T23:42:49+00:00 CRITICAL Out of memory (allocated 46137344 bytes) (tried to allocate 155648 bytes) in /workspaces/UX221-Final-Exam/.wordpress/wp-admin/async-upload.php on line 25
+
+2026-04-14T23:42:49+00:00 CRITICAL Out of memory (allocated 46137344 bytes) (tried to allocate 155648 bytes) in /workspaces/UX221-Final-Exam/.wordpress/wp-admin/async-upload.php on line 25
+
+2026-04-15T00:44:35+00:00 CRITICAL Out of memory (allocated 50331648 bytes) (tried to allocate 81920 bytes) in /workspaces/UX221-Final-Exam/.wordpress/wp-includes/class-wp-scripts.php on line 562
+
+2026-04-15T00:44:35+00:00 CRITICAL Out of memory (allocated 50331648 bytes) (tried to allocate 81920 bytes) in /workspaces/UX221-Final-Exam/.wordpress/wp-includes/class-wp-scripts.php on line 562
+
+2026-04-15T00:44:35+00:00 CRITICAL Out of memory (allocated 50331648 bytes) (tried to allocate 81920 bytes) in /workspaces/UX221-Final-Exam/.wordpress/wp-includes/class-wp-scripts.php on line 562
+
+2026-04-15T00:44:35+00:00 CRITICAL Out of memory (allocated 50331648 bytes) (tried to allocate 81920 bytes) in /workspaces/UX221-Final-Exam/.wordpress/wp-includes/class-wp-scripts.php on line 562
+

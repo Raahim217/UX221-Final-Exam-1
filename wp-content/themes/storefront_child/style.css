@@ -6,3 +6,246 @@ Template:       storefront
 
 (optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
 */
+:root {
+  --cream: #fff8f0;
+  --tan: #f3dfc1;
+  --cookie: #c98b5f;
+  --chocolate: #6b3e26;
+  --pink: #f7c6c7;
+  --berry: #b85c5c;
+  --white: #ffffff;
+  --text: #4a3428;
+  --shadow: 0 4px 14px rgba(107, 62, 38, 0.12);
+  --radius: 18px;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--text);
+  font-family: "Trebuchet MS", "Gill Sans", "Segoe UI", sans-serif;
+  line-height: 1.7;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Georgia", "Times New Roman", serif;
+  color: var(--chocolate);
+  letter-spacing: 0.5px;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 2.7rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+a {
+  color: var(--berry);
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: var(--chocolate);
+  text-decoration: underline;
+}
+
+.site-header,
+header {
+  background: linear-gradient(135deg, var(--tan), var(--pink));
+  padding: 20px 0;
+  box-shadow: var(--shadow);
+}
+
+.site-title,
+.site-title a {
+  font-family: "Georgia", "Times New Roman", serif;
+  color: var(--chocolate);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.site-description {
+  color: var(--text);
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.main-navigation,
+nav {
+  margin-top: 10px;
+}
+
+.main-navigation a,
+nav a {
+  color: var(--chocolate);
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 999px;
+  display: inline-block;
+}
+
+.main-navigation a:hover,
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.post,
+.page,
+.entry-content,
+.widget,
+.wp-block-group {
+  background-color: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.site-main,
+.content-area,
+main {
+  padding: 30px 20px;
+}
+
+article,
+.post,
+.page {
+  padding: 24px;
+  margin-bottom: 28px;
+}
+
+button,
+input[type="submit"],
+.wp-block-button__link,
+a.button,
+a.wp-element-button {
+  background-color: var(--cookie);
+  color: var(--white);
+  border: none;
+  border-radius: 999px;
+  padding: 12px 22px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: 0.3s ease;
+}
+
+button:hover,
+input[type="submit"]:hover,
+.wp-block-button__link:hover,
+a.button:hover,
+a.wp-element-button:hover {
+  background-color: var(--chocolate);
+  color: var(--white);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+textarea,
+select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 2px solid var(--tan);
+  border-radius: 14px;
+  background-color: #fffdf9;
+  font-size: 1rem;
+  color: var(--text);
+  box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: var(--cookie);
+  box-shadow: 0 0 0 3px rgba(201, 139, 95, 0.15);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+
+.hero,
+.wp-block-cover,
+.banner-section {
+  background: linear-gradient(135deg, #fff1dc, #f9d6d6);
+  border-radius: 24px;
+  padding: 50px 30px;
+  box-shadow: var(--shadow);
+}
+
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product,
+.product,
+.wp-block-post {
+  background-color: var(--white);
+  border-radius: 20px;
+  padding: 18px;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease;
+}
+
+.woocommerce ul.products li.product:hover,
+.woocommerce-page ul.products li.product:hover,
+.product:hover,
+.wp-block-post:hover {
+  transform: translateY(-4px);
+}
+
+.woocommerce div.product p.price,
+.woocommerce div.product span.price,
+.price {
+  color: var(--berry);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.site-footer,
+footer {
+  background-color: var(--chocolate);
+  color: #fceede;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+.site-footer a,
+footer a {
+  color: #ffd9b3;
+}
+
+.site-footer a:hover,
+footer a:hover {
+  color: var(--white);
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 20px 20px, rgba(201, 139, 95, 0.06) 2px, transparent 2px),
+    radial-gradient(circle at 60px 60px, rgba(247, 198, 199, 0.08) 3px, transparent 3px);
+  background-size: 80px 80px;
+  z-index: -1;
+}
